@@ -95,6 +95,17 @@ nav {
     border-right: 5px solid #0D3842;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
 main, article {
     padding: 10px;
     font-size: 18;
