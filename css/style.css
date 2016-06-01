@@ -177,6 +177,15 @@ ul {
     padding: 10px;
 }
 
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
 .button {
     background-color: rgb(33,33,33);
     color: ghostwhite;
@@ -201,6 +210,18 @@ ul {
     background-color: cadetblue;
     text-align: center;
     list-style: none;
+}
+
+.current {
+    background-color: rgb(45,45,45);
+    color: ghostwhite;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 3px;
 }
 
 /* end of specific styling */
