@@ -225,3 +225,21 @@ figure img {
 }
 
 /* end of specific styling */
+
+/* column grid style layout classes */
+
+.column-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.column-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.column-grid figure img {
+    border: 15px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+}
